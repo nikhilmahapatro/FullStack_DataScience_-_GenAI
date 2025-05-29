@@ -120,3 +120,42 @@ if (T%4==0 and T%100!=0) or T%400==0:
     print(str(T)+" is a Leap year")
 else:
     print(str(T) + " is Not a Leap year")
+
+# Remove leading and trailing spaces from a string input?
+U=input("Enter String:- ").strip()
+print(U)
+
+#  Handling incorrect inputs when you expect an integer using `input()`?
+# Try-Except
+try:
+    V=int(input("Enter Integer:- "))
+except ValueError:
+    print("Invalid Input. Enter a valid integer.")
+
+# Accept a string and counts the occurrence of a particular character.
+# W
+
+# Convert user input to lowercase using input()
+X=input("Enter String:- ").lower()
+print(X)
+
+# Check if the input string contains only Alphabets
+Y=input("Check only Alphabet string:- ")
+if Y.isalpha():
+    print("String contains only Alphabets")
+else:
+    print("String contains other characters")
+
+# Count no of words in the sentence
+Z=input("Count No of words:- ").split(" ")
+print(Z)
+print(len(Z))
+
+# Accept date input from the user
+# AA
+
+# Take input from user and print without spaces
+BB=input("Enter the string:- ")
+print(BB.replace(" ",""))
+
+
