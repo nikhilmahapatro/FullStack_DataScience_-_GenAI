@@ -1,3 +1,5 @@
+
+import math
 # Introduction
 
 print(3 + 2)   # addition(+)
@@ -10,7 +12,7 @@ print(3 // 2)  # Floor division operator(//)
 
 #______________________________________________________________________________________________________________
 
-# Arithmetic Operations in Python
+# ARITHMATIC OPERATORS
 # Integers
 
 print('Addition: ', 1 + 2)
@@ -68,27 +70,27 @@ print('difference: ', diff)
 print('product: ', product)
 print('division: ', div)
 print('remainder: ', remainder)
+#________________________________________________________________________________________________________________
 
-#_______________________________________________________________________________________________________________
+# ASSIGNMENT OPERATORS
 
-# Calculating area of a circle
-radius = 10                                 # radius of a circle
-area_of_circle = 3.14 * radius ** 2         # two * sign means exponent or power
-print('Area of a circle:', area_of_circle)
-
-# Calculating area of a rectangle
-length = 10
-width = 20
-area_of_rectangle = length * width
-print('Area of rectangle:', area_of_rectangle)
-
-# Calculating a weight of an object
-mass = 75
-gravity = 9.81
-weight = mass * gravity
-print(weight, 'N')
+x,y,p,q,r,s = 2,2,6,6,7,7
+x=x+2
+y+=9
+print(x)
+print(y)
+r=r*2
+s*=2
+print(r)
+print(s)
+p=p-1
+q-=1
+print(p)
+print(q)
 
 #________________________________________________________________________________________________________________
+
+# RELATIONAL OPERATORS
 
 print(3 > 2)     # True, because 3 is greater than 2
 print(3 >= 2)    # True, because 3 is greater than 2
@@ -104,6 +106,9 @@ print(len('milk') != len('meat'))      # False
 print(len('milk') == len('meat'))      # True
 print(len('tomato') == len('potato'))  # True
 print(len('python') > len('dragon'))   # False
+#__________________________________________________________________________________________________________________
+
+# LOGICAL OPERATORS
 
 # Boolean comparison
 print('True == True: ', True == True)
@@ -113,13 +118,10 @@ print('True and True: ', True and True)
 print('True or False:', True or False)
 
 # Another way comparison
-print('1 is 1', 1 is 1)                   # True - because the data values are the same
-print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
 print('A in Asabeneh', 'A' in 'Asabeneh') # True - A found in the string
 print('B in Asabeneh', 'B' in 'Asabeneh') # False -there is no uppercase B
 print('coding' in 'coding for all') # True - because coding for all has the word coding
 print('a in an:', 'a' in 'an')      # True
-print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
 
 print(3 > 2 and 4 > 3) # True - because both statements are true
 print(3 > 2 and 4 < 3) # False - because the second statement is false
@@ -132,3 +134,30 @@ print(not True)      # False - Negation, the not operator turns true to false
 print(not False)     # True
 print(not not True)  # True
 print(not not False) # False
+#___________________________________________________________________________________________________________________
+
+# NUMBER SYSTEM CONVERSION
+
+print(bin(25))
+print(bin(39))
+print(int(0b10110110))
+print(int(0b00101101))
+print(oct(59))
+print(oct(98))
+print(hex(75))
+print(hex(19))
+
+#___________________________________________________________________________________________________________________
+
+# BITWISE OPERATORS
+
+# Complements
+print(~54)                   # -55
+print(~6)                    # -7
+print(~-32)                  # 31
+
+print(12 & 73)               # AND
+print(22 | 63)               # OR
+print(81^44)                 # XOR
+print(22<<2)                 # Left Shift (in this case we gain 2 bits)
+print(20>>3)                 # Right Shift (in this case we lose 3 bits)
