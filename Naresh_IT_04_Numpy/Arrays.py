@@ -26,17 +26,17 @@ print(np.arange(10,40,3))
 # Parameter Tuning
 print(np.zeros(5))                               # [0. 0. 0. 0. 0.]
 # Hyperparameter Tuning
-print(np.zeros(10,dtype=int))             # [0 0 0 0 0 0 0 0 0 0]
+print(np.zeros(10,dtype=int))                    # [0 0 0 0 0 0 0 0 0 0]
 print(np.zeros((2,2)))                           # 2*2 array--> [[0. 0.][0. 0.]]
-print(np.zeros((2,2), dtype=int))         # 2*2 array--> [[0 0][0 0]]
-print(np.zeros((3,4), dtype=int))         # 3*4 array--> [[0 0 0 0][0 0 0 0][0 0 0 0]]
+print(np.zeros((2,2), dtype=int))                # 2*2 array--> [[0 0][0 0]]
+print(np.zeros((3,4), dtype=int))                # 3*4 array--> [[0 0 0 0][0 0 0 0][0 0 0 0]]
 
-print(np.ones(7))                               # [1. 1. 1. 1. 1. 1. 1.]
-print(np.ones((3,3)))                           # 3*3 array--> [[1. 1. 1.][1. 1. 1.][1. 1. 1.]]
-print(np.ones((3,5),dtype=int))                 # 3*5 array--> [[1 1 1 1 1][1 1 1 1 1][1 1 1 1 1]]
+print(np.ones(7))                                # [1. 1. 1. 1. 1. 1. 1.]
+print(np.ones((3,3)))                            # 3*3 array--> [[1. 1. 1.][1. 1. 1.][1. 1. 1.]]
+print(np.ones((3,5),dtype=int))                  # 3*5 array--> [[1 1 1 1 1][1 1 1 1 1][1 1 1 1 1]]
 
-print(np.random.rand(5))                        # [0.93947515 0.40208097 0.2263055  0.51842431 0.01126621]
-print(np.random.rand(2,3))                      # 2*3 array--> [[0.12089843 0.79271894 0.45682247][0.50187188 0.7821017  0.13896569]]
-print(np.random.randint(5,16))        # Generates 1 random int in range[5,16)
-print(np.random.randint(0,21,4)) # Generates 4 random int in range[0,21)
-print(np.random.randint(0,1))         # Generates 0 everytime
+print(np.random.rand(5))                         # [0.93947515 0.40208097 0.2263055  0.51842431 0.01126621]
+print(np.random.rand(2,3))                       # 2*3 array--> [[0.12089843 0.79271894 0.45682247][0.50187188 0.7821017  0.13896569]]
+print(np.random.randint(5,16))                   # Generates 1 random int in range[5,16)
+print(np.random.randint(0,21,4))                 # Generates 4 random int in range[0,21)
+print(np.random.randint(0,1))                    # Generates 0 everytime
