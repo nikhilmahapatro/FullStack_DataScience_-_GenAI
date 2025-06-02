@@ -187,10 +187,10 @@ print("Union of a and b:", union)
 
 # Array attributes
 Y= np.array([1, 2, 3])
-shape = Y.shape                                     # Shape of the array
-size = Y.size                                       # Number of elements
-dimensions = Y.ndim                                 # Number of dimensions
-dtype = Y.dtype                                     # Data type of the array
+shape = Y.shape                                                 # Shape of the array
+size = Y.size                                                   # Number of elements
+dimensions = Y.ndim                                             # Number of dimensions
+dtype = Y.dtype                                                 # Data type of the array
 
 print("Shape of a:", shape)
 print("Size of a:", size)
@@ -203,11 +203,11 @@ print("Data type of a:", dtype)
 
 # Create a copy of an array
 Z = np.array([1, 2, 3])
-copied_array = np.copy(Z)                           # Create a copy of array a
+copied_array = np.copy(Z)                                      # Create a copy of array a
 print("Copied array:", copied_array)
 
 # Size in bytes of an array
-array_size_in_bytes = Z.nbytes                      # Size in bytes
+array_size_in_bytes = Z.nbytes                                 # Size in bytes
 print("Size of Z in bytes:", array_size_in_bytes)
 
 # Check if two arrays share memory
