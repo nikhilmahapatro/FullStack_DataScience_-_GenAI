@@ -91,5 +91,10 @@ for m in range(1,11):
         break
     print(m)
 
+for n in range(1,11):
+    if n==7:
+        continue
+    print(n)
+
 for o in range(1,11):
         pass
