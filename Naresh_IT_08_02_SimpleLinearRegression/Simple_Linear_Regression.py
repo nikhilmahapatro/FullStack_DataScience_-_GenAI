@@ -47,5 +47,39 @@ print(y_12)
 y_20 = (m_slope*20) + c_intercept
 print(y_20)
 
+Y_mean = np.mean(Y)
+Y = Y[0:6]
+SSR = np.sum((Y_pred-Y_mean)**2)
+SSE = np.sum((Y-Y_pred)**2)
+SST = SSR + SSE
+R2 = 1-(SSR/SST)
+
+# Bias
+bias = regressor.score(X_train,Y_train)
+print(bias)
+
+# Variance
+variance = regressor.score(X_test,Y_test)
+print(variance)
+
+from sklearn.metrics import mean_squared_error
+train_mse = mean_squared_error(Y_train, regressor.predict(X_train))
+test_mse = mean_squared_error(Y_test, Y_pred)
+
+# Deployment
+
+import pickle
+
+# Save the trained model to disk
+filename = 'Simple_Linear_Regression.pkl'
+
+# Open a file in write-binary mode and dump the model
+with open(filename, 'wb') as file:
+    pickle.dump(regressor, file)
+
+print("Model has been pickled and saved as linear_regression_model.pkl")
+
+import os
+os.getcwd()
 
 
