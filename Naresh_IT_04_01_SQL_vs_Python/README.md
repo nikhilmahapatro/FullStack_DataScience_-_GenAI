@@ -1,18 +1,19 @@
 # Naresh_IT_04_01_SQL_vs_Python
 
-This repository compares **SQL and Python for data manipulation and analysis**. As part of the Full Stack Data Science & GenAI curriculum (Naresh IT), this module walks through key differences, strengths, and use cases of both tools.
+This repository explores the practical comparison between SQL and Python for data extraction, transformation, and analysis. It highlights how both tools handle similar tasks like filtering, grouping, and joining — allowing data professionals to choose the right tool for the right context. This module is particularly useful for those transitioning from database querying to full-scale data science.
 
 In this module, we:
 
-- Explore basic SQL queries for filtering, joining, and aggregating data  
-- Perform similar operations using Python libraries like pandas  
-- Compare syntax, flexibility, and performance aspects  
-- Understand when to use SQL, when Python, and how they can complement each other  
-- Solve practice problems to strengthen both SQL and Python skills
+- Compare SQL queries with their equivalent pandas code in Python
+- Learn how filtering, grouping, aggregation, and joins are handled in both approaches
+- Analyze the strengths and limitations of SQL and Python for different stages of the data pipeline
+- Translate real-world data tasks (e.g., customer segmentation, sales analysis) across both tools
+- Understand when SQL is better suited for raw data extraction and when Python offers more flexibility for manipulation and modeling
 
-This repo is ideal for those who want to:
+This repo is ideal for those looking to:
 
-- Gain fluency in both SQL and Python for data tasks  
-- Understand the trade-offs between querying data in databases vs. in-memory analysis  
-- Build a versatile toolkit for handling diverse data scenarios  
-- Prepare for real-world projects requiring smooth transitions between SQL and Python workflows
+- Build fluency in both SQL and Python as data analysis tools
+- Transition from database querying to more advanced data processing in Python
+- Understand how to replicate SQL logic using pandas and vice versa
+- Strengthen interviews and workplace readiness by knowing both perspectives
+- Develop a hybrid skill set that supports end-to-end data workflows
