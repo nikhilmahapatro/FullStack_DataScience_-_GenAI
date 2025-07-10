@@ -1,19 +1,21 @@
 # Naresh_IT_07_01_Statistics
 
-This repository covers the fundamentals of **statistics essential for data science**. As part of the Full Stack Data Science & GenAI curriculum (Naresh IT), this module provides practical concepts and examples to build a strong foundation.
+This repository introduces core concepts in statistics tailored for data science. It forms the mathematical backbone of data-driven decision making, model building, and hypothesis testing. The emphasis here is on practical understanding — not just theory — with examples relevant to analytics and machine learning workflows.
 
 In this module, we:
 
-- Explore descriptive statistics like mean, median, mode, variance, and standard deviation  
-- Understand probability distributions and their applications  
-- Learn about hypothesis testing, confidence intervals, and p-values  
-- Dive into correlation and regression analysis basics  
-- Practice solving real-world problems using statistical methods
+- Learn types of data (qualitative vs quantitative) and levels of measurement
+- Understand concepts like mean, median, mode, range, variance, and standard deviation
+- Explore distributions including uniform, binomial, and normal
+- Visualize data using histograms, boxplots, and density plots
+- Study probability basics and how they relate to statistical thinking
+- Get introduced to correlation, skewness, and kurtosis
+- Lay the foundation for future topics like hypothesis testing and inferential statistics
 
-This repo is ideal for those who want to:
+This repo is ideal for those looking to:
 
-- Strengthen their grasp of statistics to support data-driven decisions  
-- Apply statistical reasoning in data analysis and modeling  
-- Prepare for advanced topics in machine learning and AI  
-- Build confidence interpreting and communicating statistical results
-
+- Build a strong statistical foundation for data science and ML
+- Understand how data behaves before applying models
+- Strengthen intuition around variability, central tendency, and probability
+- Interpret visualizations and summary stats meaningfully
+- Prepare for interview questions involving data insights and metric reasoning
