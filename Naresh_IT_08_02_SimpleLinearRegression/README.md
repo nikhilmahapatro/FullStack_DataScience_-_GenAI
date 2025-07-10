@@ -1,18 +1,20 @@
 # Naresh_IT_08_02_SimpleLinearRegression
 
-This repository covers the fundamentals of **simple linear regression**, a core technique in supervised machine learning. As part of the Full Stack Data Science & GenAI curriculum (Naresh IT), this module explains theory and provides practical implementation using Python.
+This repository introduces Simple Linear Regression, one of the most fundamental algorithms in supervised machine learning. It models the relationship between a single independent variable and a continuous dependent variable using a straight line. The focus here is on building intuition, implementing the model, and interpreting the results.
 
 In this module, we:
 
-- Understand the concept of linear regression and its assumptions  
-- Learn how to fit a simple linear regression model to data  
-- Evaluate model performance using metrics like R-squared and RMSE  
-- Visualize regression lines and residuals  
-- Apply regression for prediction tasks with real datasets
+- Understand the mathematical equation of a line: `y = mx + c`
+- Learn how to fit a line to data by minimizing error (Ordinary Least Squares)
+- Use sklearn's `LinearRegression` to train and test models
+- Visualize regression lines and residuals using matplotlib and seaborn
+- Evaluate model performance using metrics like MSE, RMSE, and R² Score
+- Interpret slope and intercept in the context of real-world scenarios
 
-This repo is ideal for those who want to:
+This repo is ideal for those looking to:
 
-- Grasp the basics of regression analysis  
-- Build and interpret simple predictive models  
-- Prepare for more advanced machine learning topics  
-- Gain hands-on coding experience with libraries like scikit-learn and matplotlib
+- Build a solid foundation in linear modeling and regression analysis
+- Learn how to apply and evaluate predictive models for numeric targets
+- Understand overfitting and underfitting in the context of linear models
+- Prepare for interviews and academic questions around regression
+- Strengthen Python + sklearn + matplotlib skills in a practical ML setting
