@@ -1,18 +1,20 @@
 # Naresh_IT_06_01_Gradio
 
-This repository covers the basics of **building interactive machine learning and data science apps using Gradio**. Part of the Full Stack Data Science & GenAI curriculum (Naresh IT), this module offers hands-on examples to create quick, user-friendly interfaces with minimal code.
+This repository introduces Gradio, a fast and intuitive Python library that lets you build interactive web UIs for machine learning models, data science tools, and GenAI applications. It allows you to turn Python functions into shareable demos with just a few lines of code.
 
 In this module, we:
 
-- Learn to set up and launch Gradio apps  
-- Explore core components like input widgets, output displays, and layouts  
-- Build interactive demos for models and data processing pipelines  
-- Understand how to customize UI elements and handle user inputs  
-- Practice deploying Gradio apps locally and on cloud platforms
+- Learn the fundamentals of creating a Gradio app using `Interface`, `Blocks`, and `ChatInterface`
+- Build quick interactive GUIs for models, calculators, image processors, and LLM agents
+- Work with various input/output types like `Textbox`, `Slider`, `Dropdown`, `Image`, and `Chatbot`
+- Handle multiple inputs and outputs, chaining functions with `Blocks`
+- Host local and public Gradio apps with real-time interactivity
+- Explore how Gradio supports AI explainability and human-AI collaboration
 
 This repo is ideal for those looking to:
 
-- Quickly prototype ML/DL model demos without front-end expertise  
-- Share interactive tools with stakeholders or clients  
-- Add user interaction to data science workflows  
-- Gain practical experience with a popular Python app framework
+- Rapidly prototype and test ML or GenAI projects with real users
+- Add simple, usable frontends to Python-based tools or functions
+- Build Streamlit-style interactive UIs but with more flexibility for AI pipelines
+- Share ML demos, visualizations, or GenAI experiments with stakeholders or online
+- Gain experience building user-facing apps without frontend coding
