@@ -1,6 +1,6 @@
 #----------------------------REGRESSION MODELS---------------------------#
 
-# POLYNOMIAL REGRESSION
+# SUPPORT VECTOR REGRESSION
 
 import numpy as np
 import matplotlib.pyplot as plt
