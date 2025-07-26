@@ -1,6 +1,6 @@
 #----------------------------CLASSIFICATION MODELS---------------------------#
 
-# LOGISTIC REGRESSION
+# KNN CLASSIFIER
 
 import numpy as np
 import matplotlib.pyplot as plt
