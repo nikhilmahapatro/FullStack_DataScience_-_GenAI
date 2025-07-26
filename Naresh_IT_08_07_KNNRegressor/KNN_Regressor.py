@@ -1,6 +1,6 @@
 #----------------------------REGRESSION MODELS---------------------------#
 
-# POLYNOMIAL REGRESSION
+# KNN REGRESSOR
 
 import numpy as np
 import matplotlib.pyplot as plt
