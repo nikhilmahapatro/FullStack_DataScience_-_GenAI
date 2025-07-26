@@ -1,6 +1,6 @@
 #----------------------------REGRESSION MODELS---------------------------#
 
-# POLYNOMIAL REGRESSION
+# RANDOM FOREST REGRESSOR
 
 import numpy as np
 import matplotlib.pyplot as plt
