@@ -1,0 +1,22 @@
+artifact_path: file:///C:/Users/nikhi/PycharmProjects/NARESH_IT/11_NARESH_IT_ML_OPS/Naresh_IT_11_01_MLOpsExperiments/mlruns/295391623081869866/models/m-2537ad20a3d346afbc4cc302aca14972/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.1
+model_id: m-2537ad20a3d346afbc4cc302aca14972
+model_size_bytes: 11473
+model_uuid: m-2537ad20a3d346afbc4cc302aca14972
+prompts: null
+run_id: b0b2163cdc654c55b724de2f8cdc8632
+utc_time_created: '2025-08-23 07:36:27.718296'

@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/nikhi/PycharmProjects/NARESH_IT/11_NARESH_IT_ML_OPS/Naresh_IT_11_01_MLOpsExperiments/mlruns/295391623081869866/models/m-132465434a064625acbc7a4c26d2d802/artifacts
+creation_timestamp: 1755934579480
+experiment_id: '295391623081869866'
+last_updated_timestamp: 1755934587335
+model_id: m-132465434a064625acbc7a4c26d2d802
+model_type: null
+name: logistic_regression_model
+source_run_id: 2bb4901eefce47deaa9a135a75e2ae58
+status: 2
+status_message: null

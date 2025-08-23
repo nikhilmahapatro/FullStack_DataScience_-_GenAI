@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/nikhi/PycharmProjects/NARESH_IT/11_NARESH_IT_ML_OPS/Naresh_IT_11_01_MLOpsExperiments/mlruns/295391623081869866/b0b2163cdc654c55b724de2f8cdc8632/artifacts
+end_time: 1755934590552
+entry_point_name: ''
+experiment_id: '295391623081869866'
+lifecycle_stage: active
+run_id: b0b2163cdc654c55b724de2f8cdc8632
+run_name: gregarious-flea-907
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1755934587425
+status: 3
+tags: []
+user_id: nikhi
