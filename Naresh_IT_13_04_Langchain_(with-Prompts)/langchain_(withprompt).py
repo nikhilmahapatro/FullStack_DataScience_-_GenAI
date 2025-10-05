@@ -8,7 +8,7 @@ Original file is located at
 """
 
 import os
-os.environ["GEMINI_API_KEY"] = "AIzaSyDPlcghP9LQQO6d9uj2s4TKa4jOSNgwxmM"
+os.environ["GEMINI_API_KEY"] = "your_api_key_here"
 
 """PROMPT TEMPLATE"""
 
